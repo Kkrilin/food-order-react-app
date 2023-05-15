@@ -1,0 +1,8 @@
+.nav {
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+  padding-left: 5rem;
+  color: rgb(224, 228, 225);
+}
