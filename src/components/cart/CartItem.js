@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ReactDOM from "react-dom/client";
+
 import classes from "./CartItem.module.css";
 import CartContext from "../../store/cart-context";
 
