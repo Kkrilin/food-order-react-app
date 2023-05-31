@@ -1,8 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  right: 5rem;
 }
 
 .form label {
@@ -33,4 +31,10 @@
 
 .form button:active {
   box-shadow: 0px 0px 1px 1px rgb(108, 19, 125);
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    justify-self: center;
+  }
 }
